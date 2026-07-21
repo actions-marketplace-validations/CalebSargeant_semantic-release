@@ -106,7 +106,7 @@ jobs:
       statuses: write
       checks: write
     steps:
-      - uses: magmamoose/release-runner@e88a8245037aab4f1c030852048efcdd4e54991b # v1
+      - uses: magmamoose/release-runner@3a369fa0a0c443d444a3f163c21413065aca9aac # v1
         with:
           mode: ci
           image_name:              ${{ inputs.image_name }}
